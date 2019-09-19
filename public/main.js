@@ -28,7 +28,7 @@ class Fetch {
       })
     }  
     getByParams(url, param) {
-      return apiGET(`${url}/${param}`)
+      return this.apiGET(`${url}/${param}`)
     }
   }
 
